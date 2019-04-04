@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+/* HEADER */
+header {
+    height: 120px;
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    height: 50%;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 0.7%;
+    margin-top: 1px;
+}
+.midias-sociais {
+    float: right;
+    
+}
+.midias-sociais ul {
+    list-style: none;
+}
+.midias-sociais ul li {
+   display: inline-block;
+   margin-left: 5px;  
+   padding: 1px;
+}
+.menu {
+    margin: 0 auto;
+    position: relative;
+    height: 50%;
+    background-color: #330b09;
+}
+.menu-list {
+    margin: 0 auto;
+    width: 980px;
+    padding-right: 50px;
+
+}
+.menu-list ul {
+    float: left;
+    list-style: none;
+}
+.menu-list ul li {
+    display: inline-block;
+    margin-top:1.8px;
+    margin-right: 17px;
+    height: 34px;
+    
+}
+.menu-list ul li:hover {
+    border-bottom: 3px solid;
+    border-bottom-color: black;
+}
+.menu-list ul li a {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgba(162, 170, 168, 0.952);
+    text-decoration: none;   
+}
+.menu-list ul li a:hover {
+    color:black;
+}
+/* -------------------- */
+/* MENU PRINCIPAL */
+menu {
+    margin-top: 11px;
+}
+/*
+.painel {
+    margin: 0 auto;
+    width: 980px;
+    padding-right: 15px;
+}
+*/
+.slider {
+    margin: 0 auto;
+    right: 12px;
+    width: 980px;
+
+}
+button.slick-prev.slick-arrow {
+    font-size: 0px;
+    border: none;
+    height: 64px;
+    width: 64px;
+    margin-top: 17%;
+    background-color: transparent;
+    background-image: url('imagens/seta1-esquerda.png');
+    position: absolute;
+    z-index: 9;
+}
+button.slick-next.slick-arrow {
+    font-size: 0px;
+    border: none;
+    height: 64px;
+    width: 64px;
+    right: 0%;
+    top: 41.2%;
+    background-color: transparent;
+    background-image: url('imagens/seta1.png');
+    position: absolute;
+    z-index: 9;
+}
+.slick-dots {
+    list-style: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 41%;
+    bottom: 2%;
+}
+.slick-dots li {
+    display: inline-block;
+    margin-left: 4px;
+}
+.slick-dots li button {
+    font-size: 0;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: transparent; 
+    
+}
+.slick-dots li.slick-active button{
+    background-color: rgb(136, 134, 5);
+}
